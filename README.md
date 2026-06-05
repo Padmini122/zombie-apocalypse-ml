@@ -1,10 +1,6 @@
 
 # 🧟 Zombie Apocalypse Supply Chain Optimizer
 
-![Python](https://img.shields.io/badge/Python-3.13-blue)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Project Overview
 
@@ -196,4 +192,3 @@ LinkedIn:https://www.linkedin.com/in/padmini-kovvuri-8063a72b5
 =======
 # zombie-apocalypse-ml
 ML-powered zombie outbreak survival route predictor  Linear Regression, Decision Tree, Random Forest
->>>>>>> 553b3b5247648c82529f4e8eec3bf9fa93241534
