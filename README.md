@@ -1,9 +1,6 @@
 # 🧟 Zombie Apocalypse Supply Chain Optimizer
 
- 🚀 Live Demo
-
-👉[Launch Interactive Dashboard](https://zombie-apocalypse-ml.streamlit.app)
-
+🚀 Live Demo: [Launch Interactive Dashboard](https://zombie-apocalypse-ml-mpge6vurp5yzlhh6kwctpx.streamlit.app/)
 Built as an End-to-End Machine Learning & Simulation Project 
 
 ## 🎯 The Problem
