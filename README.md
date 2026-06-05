@@ -1,7 +1,6 @@
 
 # 🧟 Zombie Apocalypse Supply Chain Optimizer
 
-
 ## 📌 Project Overview
 
 The Zombie Apocalypse Supply Chain Optimizer is an end-to-end Machine Learning project that simulates a zombie outbreak across interconnected cities and predicts evacuation route failures using predictive analytics.
@@ -192,3 +191,7 @@ LinkedIn:https://www.linkedin.com/in/padmini-kovvuri-8063a72b5
 =======
 # zombie-apocalypse-ml
 ML-powered zombie outbreak survival route predictor  Linear Regression, Decision Tree, Random Forest
+<<<<<<< HEAD
+=======
+
+>>>>>>> dd2b138 (Fix Streamlit Cloud dependencies)
