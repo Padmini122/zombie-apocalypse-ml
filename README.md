@@ -1,173 +1,146 @@
-
 # 🧟 Zombie Apocalypse Supply Chain Optimizer
 
-## 📌 Project Overview
+ 🚀 Live Demo
 
-The Zombie Apocalypse Supply Chain Optimizer is an end-to-end Machine Learning project that simulates a zombie outbreak across interconnected cities and predicts evacuation route failures using predictive analytics.
+👉[Launch Interactive Dashboard](https://zombie-apocalypse-ml.streamlit.app)
 
-The system combines simulation modeling, feature engineering, machine learning, and interactive visualization to help identify the safest evacuation strategies during a hypothetical apocalypse.
+Built as an End-to-End Machine Learning & Simulation Project 
 
----
+## 🎯 The Problem
 
-## 🎯 Objectives
+In a large-scale zombie outbreak, evacuation routes can become inaccessible within hours due to infection spread, infrastructure failure, and resource shortages. Traditional evacuation planning assumes static conditions and cannot adapt to rapidly changing outbreak dynamics.
 
-- Simulate zombie outbreak progression across multiple cities.
-- Generate realistic outbreak datasets.
-- Engineer meaningful predictive features.
-- Train and evaluate multiple machine learning models.
-- Visualize outbreak spread and model performance.
-- Provide an interactive dashboard using Streamlit.
+This system simulates a zombie apocalypse across interconnected cities and uses machine learning to predict route failures, identify high-risk zones, and support data-driven evacuation decisions before collapse occurs.
 
 ---
 
-## 🛠 Technologies Used
+## 🌍 Simulation Environment
 
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- NetworkX
-- Matplotlib
-- Seaborn
-- Streamlit
-- Joblib
+| Property          | Details                                                      |
+| ----------------- | ------------------------------------------------------------ |
+| Cities Simulated  | Multiple interconnected urban zones                          |
+| Network Model     | Graph-based transportation network                           |
+| Outbreak Duration | Multi-day progression simulation                             |
+| Risk Factors      | Infection rate, population density, elevation, defense level |
+| Objective         | Predict evacuation route survivability                       |
 
 ---
 
-## 📂 Project Structure
+## 🏗️ What I Built
 
-```text
-zombie-apocalypse-ml/
-│
-├── app.py
-├── main.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── src/
-│   ├── __init__.py
-│   ├── simulator.py
-│   ├── feature_engineering.py
-│   ├── models.py
-│   └── visualization.py
-│
-├── data/
-│
-├── models/
-│   ├── linear_regression.pkl
-│   ├── decision_tree.pkl
-│   └── random_forest.pkl
-│
-├── visualizations/
-│   ├── outbreak_progression.png
-│   ├── confusion_matrices.png
-│   ├── roc_curves.png
-│   └── feature_importance.png
-│
-└── docs/
-    ├── methodology.md
-    └── results_summary.md
-```
+### Phase 1 — Zombie Outbreak Simulation
 
----
+* Generated a graph-based city network using NetworkX.
+* Simulated infection spread across connected regions.
+* Modeled daily outbreak progression.
+* Tracked city-level infection growth and survivability.
 
-## 🤖 Machine Learning Models
+### Phase 2 — Feature Engineering
 
-The project trains and evaluates:
+Created predictive features including:
 
-| Model | Purpose |
-|---------|---------|
-| Linear Regression | Baseline predictor |
-| Decision Tree | Interpretable classification |
-| Random Forest | High-performance ensemble model |
+* Infection probability
+* Neighbor infection pressure
+* Population density
+* Defensive infrastructure score
+* Elevation factor
+* Distance from outbreak source
+
+Generated machine-learning-ready datasets from simulation outputs.
+
+### Phase 3 — Machine Learning Models
+
+| Model                   | Algorithm         | Purpose                         |
+| ----------------------- | ----------------- | ------------------------------- |
+| Route Failure Predictor | Linear Regression | Baseline prediction             |
+| Risk Classification     | Decision Tree     | Explainable predictions         |
+| Survival Forecasting    | Random Forest     | High-performance ensemble model |
 
 ### Evaluation Metrics
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+
+### Phase 4 — Risk Intelligence Engine
+
+* Predicts evacuation route collapse probability.
+* Detects critical outbreak hotspots.
+* Ranks cities by survival likelihood.
+* Identifies safest evacuation paths.
+
+### Phase 5 — Interactive Streamlit Dashboard
+
+#### 📈 Overview
+
+Simulation statistics, outbreak progression, and city risk summaries.
+
+#### 🧠 Model Performance
+
+Model comparison, ROC curves, confusion matrices, and prediction metrics.
+
+#### 🌍 Outbreak Visualizations
+
+Network spread maps and infection progression analytics.
+
+#### ⚠️ Risk Monitoring
+
+Early-warning indicators for route failures and high-risk regions.
 
 ---
 
-## 📊 Visualizations
+## 📊 Visual Analytics
 
 The project automatically generates:
 
-### Outbreak Progression
-Tracks zombie infection spread across cities over time.
-
-### Confusion Matrices
-Compares prediction performance of all models.
-
-### ROC Curves
-Displays classifier effectiveness using AUC scores.
-
-### Feature Importance
-Highlights the most influential factors affecting evacuation route failures.
+* Outbreak Progression Maps
+* Confusion Matrices
+* ROC Curves
+* Feature Importance Rankings
 
 ---
 
-## 🚀 Installation
+## 🔍 Key Findings
 
-Clone the repository:
+* Infection probability is the strongest predictor of evacuation failure.
+* Population density significantly accelerates outbreak spread.
+* Elevated regions exhibit longer survival durations.
+* Defensive infrastructure substantially reduces collapse risk.
+* Random Forest consistently achieves the strongest predictive performance.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category         | Tools               |
+| ---------------- | ------------------- |
+| Programming      | Python              |
+| Data Processing  | Pandas, NumPy       |
+| Machine Learning | Scikit-learn        |
+| Simulation       | NetworkX            |
+| Visualization    | Matplotlib, Seaborn |
+| Dashboard        | Streamlit           |
+| Version Control  | Git, GitHub         |
+
+---
+
+## 🚀 Run Locally
 
 ```bash
+# Clone repository
 git clone https://github.com/Padmini122/zombie-apocalypse-ml.git
+
+# Enter project folder
 cd zombie-apocalypse-ml
-```
 
-Install dependencies:
-
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
----
-
-## ▶️ Run the Project
-
-### Command Line Version
-
-```bash
-python main.py
-```
-
-### Streamlit Dashboard
-
-```bash
+# Launch dashboard
 streamlit run app.py
 ```
-
-Open:
-
-```text
-http://localhost:8501
-```
-
----
-
-## 📈 Key Features
-
-- Zombie outbreak simulation
-- Supply chain disruption analysis
-- Feature engineering pipeline
-- Multiple ML model comparison
-- Interactive dashboard
-- Automated visualization generation
-- Model persistence using Joblib
-
----
-
-## 🔍 Key Insights
-
-- Infection probability is the strongest predictor of route failure.
-- Population density accelerates outbreak spread.
-- Elevated regions survive longer.
-- Defensive infrastructure significantly improves survival rates.
-- Random Forest consistently outperforms other models.
 
 ---
 
@@ -179,19 +152,12 @@ This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
 
-**Padmini Kovvuri**
+Padmini Kovvuri
 
 GitHub: https://github.com/Padmini122
 
-LinkedIn:https://www.linkedin.com/in/padmini-kovvuri-8063a72b5
+LinkedIn: https://www.linkedin.com/in/padmini-kovvuri-8063a72b5
 
 ---
 
 > "In a zombie apocalypse, data-driven decisions can be the difference between survival and extinction."
-=======
-# zombie-apocalypse-ml
-ML-powered zombie outbreak survival route predictor  Linear Regression, Decision Tree, Random Forest
-<<<<<<< HEAD
-=======
-
->>>>>>> dd2b138 (Fix Streamlit Cloud dependencies)
