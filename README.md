@@ -1,3 +1,4 @@
+
 # 🧟 Zombie Apocalypse Supply Chain Optimizer
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
@@ -192,3 +193,7 @@ LinkedIn:https://www.linkedin.com/in/padmini-kovvuri-8063a72b5
 ---
 
 > "In a zombie apocalypse, data-driven decisions can be the difference between survival and extinction."
+=======
+# zombie-apocalypse-ml
+ML-powered zombie outbreak survival route predictor  Linear Regression, Decision Tree, Random Forest
+>>>>>>> 553b3b5247648c82529f4e8eec3bf9fa93241534
